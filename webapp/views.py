@@ -1,5 +1,13 @@
+from urllib.robotparser import RequestRate
 from django.shortcuts import render
 from django.http import HttpResponse
 
+
+
 def homePageView(request):
-    return HttpResponse("Hello, World!")
+    context={}
+    return render(request, 'webapp/home.html')
+
+def aboutPageView(request):
+    context={}
+    return render(request, 'webapp/about.html')
