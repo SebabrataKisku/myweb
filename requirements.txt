@@ -4,7 +4,6 @@ distlib==0.3.4
 Django==4.0
 filelock==3.4.0
 gunicorn==19.9.0
-sqlite3==22.0.4
 platformdirs==2.4.0
 protobuf==3.20.0
 six==1.16.0
