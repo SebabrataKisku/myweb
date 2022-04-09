@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#wa-_m9phbsrk=!=h2h)ez_xh6!xrq(@h&u)h+0d1^o(%2ocxc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bemagnet.herokuapp.com']
+ALLOWED_HOSTS = ['beingmagnet.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
